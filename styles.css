@@ -1,9 +1,24 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 header {
   width: 100%;
   background-image: url("assets/banner1.png");
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+}
+
+nav > div:nth-child(2) > img{
+  width: 130px;
+} 
+
+nav > div:last-child > img {
+  padding: 0 10px;
 }
